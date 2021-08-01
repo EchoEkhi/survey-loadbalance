@@ -28,7 +28,7 @@ app.use('/', (_, res) => {
     }
 
     res.redirect(url)
-    console.log(`Redirected applicant No.${count}. URL No.${count % 4}.`)
+    console.log(`Redirected applicant No.${count} to URL No.${count % 4}.`)
 
     count++
 
